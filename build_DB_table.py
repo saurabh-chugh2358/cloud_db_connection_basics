@@ -1,7 +1,7 @@
 import mysql.connector
 
-cnx = mysql.connector.connect(user='G24431890',
-                              password='rohit2358',
+cnx = mysql.connector.connect(user='<<db_instance_primary_user_name>>',
+                              password='<<db_instance_password>>',
                               host='g24431890-mysql.c1lczmt6e8zi.us-east-1.rds.amazonaws.com',
                               database='G24431890_ssanames')
 
